@@ -1,28 +1,38 @@
-import React from "react";
-import Table from "./table";
+/* eslint-disable @typescript-eslint/no-empty-function */
+import React, { createContext, useState } from "react";
+import Header from "./header";
+import Monthly from "./monthly";
+
+interface ICalendarContext {
+  currentDate: Date;
+  setCurrDate: React.Dispatch<React.SetStateAction<Date>>;
+}
+
+const initialContext: ICalendarContext = {
+  currentDate: new Date(),
+  setCurrDate: () => {},
+};
+
+export const CalendarContext = createContext<ICalendarContext>(initialContext);
 
 interface Props {
   id?: string;
 }
 
-const data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
-
 const Calendar: React.FC<Props> = (props: Props) => {
   const { id } = props;
+  const [currDate, setCurrDate] = useState<Date>(new Date());
+  const calendarContext: ICalendarContext = {
+    currentDate: currDate,
+    setCurrDate: setCurrDate,
+  };
+
   return (
     <div id={id}>
-      <Table
-        header={[
-          "Segunda",
-          "Terça",
-          "Quarta",
-          "Quinta",
-          "Sexta",
-          "Sabado",
-          "Domingo",
-        ]}
-        data={data}
-      />
+      <CalendarContext.Provider value={calendarContext}>
+        <Header />
+        <Monthly id={"monthly"} currentDate={currDate} language="pt-BR" />
+      </CalendarContext.Provider>
     </div>
   );
 };
