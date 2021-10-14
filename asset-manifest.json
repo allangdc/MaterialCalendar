@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/allangdc/MaterialCalendar/static/js/main.10d6f326.chunk.js",
+    "main.js.map": "/allangdc/MaterialCalendar/static/js/main.10d6f326.chunk.js.map",
+    "runtime-main.js": "/allangdc/MaterialCalendar/static/js/runtime-main.b98affe6.js",
+    "runtime-main.js.map": "/allangdc/MaterialCalendar/static/js/runtime-main.b98affe6.js.map",
+    "static/js/2.ba9c435d.chunk.js": "/allangdc/MaterialCalendar/static/js/2.ba9c435d.chunk.js",
+    "static/js/2.ba9c435d.chunk.js.map": "/allangdc/MaterialCalendar/static/js/2.ba9c435d.chunk.js.map",
+    "static/js/3.d7d366aa.chunk.js": "/allangdc/MaterialCalendar/static/js/3.d7d366aa.chunk.js",
+    "static/js/3.d7d366aa.chunk.js.map": "/allangdc/MaterialCalendar/static/js/3.d7d366aa.chunk.js.map",
+    "index.html": "/allangdc/MaterialCalendar/index.html",
+    "static/js/2.ba9c435d.chunk.js.LICENSE.txt": "/allangdc/MaterialCalendar/static/js/2.ba9c435d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b98affe6.js",
+    "static/js/2.ba9c435d.chunk.js",
+    "static/js/main.10d6f326.chunk.js"
+  ]
+}
