@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/MaterialCalendar/static/js/main.6fb55212.chunk.js",
-    "main.js.map": "/MaterialCalendar/static/js/main.6fb55212.chunk.js.map",
+    "main.js": "/MaterialCalendar/static/js/main.c7515d10.chunk.js",
+    "main.js.map": "/MaterialCalendar/static/js/main.c7515d10.chunk.js.map",
     "runtime-main.js": "/MaterialCalendar/static/js/runtime-main.fea01b99.js",
     "runtime-main.js.map": "/MaterialCalendar/static/js/runtime-main.fea01b99.js.map",
     "static/js/2.ac8f16dd.chunk.js": "/MaterialCalendar/static/js/2.ac8f16dd.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.fea01b99.js",
     "static/js/2.ac8f16dd.chunk.js",
-    "static/js/main.6fb55212.chunk.js"
+    "static/js/main.c7515d10.chunk.js"
   ]
 }
