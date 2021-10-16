@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/MaterialCalendar/static/js/main.55ca2e8f.chunk.js",
-    "main.js.map": "/MaterialCalendar/static/js/main.55ca2e8f.chunk.js.map",
-    "runtime-main.js": "/MaterialCalendar/static/js/runtime-main.2dce987c.js",
-    "runtime-main.js.map": "/MaterialCalendar/static/js/runtime-main.2dce987c.js.map",
-    "static/js/2.0a1cfdda.chunk.js": "/MaterialCalendar/static/js/2.0a1cfdda.chunk.js",
-    "static/js/2.0a1cfdda.chunk.js.map": "/MaterialCalendar/static/js/2.0a1cfdda.chunk.js.map",
-    "static/js/3.d7d366aa.chunk.js": "/MaterialCalendar/static/js/3.d7d366aa.chunk.js",
-    "static/js/3.d7d366aa.chunk.js.map": "/MaterialCalendar/static/js/3.d7d366aa.chunk.js.map",
+    "main.js": "/MaterialCalendar/static/js/main.9fc6ecdb.chunk.js",
+    "main.js.map": "/MaterialCalendar/static/js/main.9fc6ecdb.chunk.js.map",
+    "runtime-main.js": "/MaterialCalendar/static/js/runtime-main.7b9495d4.js",
+    "runtime-main.js.map": "/MaterialCalendar/static/js/runtime-main.7b9495d4.js.map",
+    "static/js/2.e2970cb1.chunk.js": "/MaterialCalendar/static/js/2.e2970cb1.chunk.js",
+    "static/js/2.e2970cb1.chunk.js.map": "/MaterialCalendar/static/js/2.e2970cb1.chunk.js.map",
+    "static/js/3.2bb84c30.chunk.js": "/MaterialCalendar/static/js/3.2bb84c30.chunk.js",
+    "static/js/3.2bb84c30.chunk.js.map": "/MaterialCalendar/static/js/3.2bb84c30.chunk.js.map",
     "index.html": "/MaterialCalendar/index.html",
-    "static/js/2.0a1cfdda.chunk.js.LICENSE.txt": "/MaterialCalendar/static/js/2.0a1cfdda.chunk.js.LICENSE.txt"
+    "static/js/2.e2970cb1.chunk.js.LICENSE.txt": "/MaterialCalendar/static/js/2.e2970cb1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2dce987c.js",
-    "static/js/2.0a1cfdda.chunk.js",
-    "static/js/main.55ca2e8f.chunk.js"
+    "static/js/runtime-main.7b9495d4.js",
+    "static/js/2.e2970cb1.chunk.js",
+    "static/js/main.9fc6ecdb.chunk.js"
   ]
 }
