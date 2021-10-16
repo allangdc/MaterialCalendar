@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@mui/material";
+import Calendar from "./components/calendar";
 
 /**
  * Initial Class
@@ -8,7 +9,7 @@ import { Button } from "@mui/material";
 const App: React.FC = () => (
   <div>
     <h1>Header</h1>
-    <h1>Content</h1>
+    <Calendar language="pt-BR" />
     <h1>Footer</h1>
     <Button variant="contained">Enter</Button>
   </div>
