@@ -3,6 +3,7 @@ import { Grid } from "@mui/material";
 import React, { createContext, useEffect, useRef, useState } from "react";
 import Header from "./header";
 import Monthly from "./monthly";
+import Yearly from "./yearly";
 
 export enum CalendarFormat {
   MONTHLY,
@@ -68,7 +69,11 @@ const Calendar: React.FC<Props> = (props: Props) => {
           <Header />
         </Grid>
         <Grid item xs={12}>
-          <Monthly id={"monthly"} />
+          {formatCal === CalendarFormat.MONTHLY ? (
+            <Monthly id={"monthly"} />
+          ) : (
+            <Yearly id={"yearly"} />
+          )}
         </Grid>
       </Grid>
     </CalendarContext.Provider>
