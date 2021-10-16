@@ -10,4 +10,12 @@ export const useStyles = makeStyles({
     border: "solid",
     borderWidth: "0.01px",
   },
+  header_back_button: {
+    display: "flex",
+    justifyContent: "end",
+  },
+  header_foward_button: {
+    display: "flex",
+    justifyContent: "start",
+  },
 });

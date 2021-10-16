@@ -1,6 +1,6 @@
-import React, { ReactChildren, useContext } from "react";
+import React, { ReactChildren } from "react";
 import { Grid, Typography } from "@mui/material";
-import { CalendarContext } from "..";
+import { isSameDay, startOfToday } from "date-fns";
 
 interface Props {
   id?: string;
@@ -10,9 +10,12 @@ interface Props {
 
 const Cells: React.FC<Props> = (props: Props) => {
   const { children, day } = props;
-  const { currentDate } = useContext(CalendarContext);
+  const currentDate = startOfToday();
 
   const colorCells = (): string | undefined => {
+    if (isSameDay(day, currentDate)) {
+      return "#F8AD63";
+    }
     if (day.getDay() === 0 || day.getDay() === 6) {
       return "#F7F6F3";
     }

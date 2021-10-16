@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-import React, { useEffect, useRef, useState } from "react";
+import React, { useContext } from "react";
 import { Typography } from "@mui/material";
 import Table from "./table";
 import {
@@ -11,25 +11,15 @@ import {
 } from "date-fns";
 import { differenceInDays, endOfWeek } from "date-fns/esm";
 import Cells from "./cells";
+import { CalendarContext } from ".";
 
 interface Props {
   id?: string;
-  currentDate: Date;
-  language: string;
 }
 
 const Monthly: React.FC<Props> = (props: Props) => {
-  const { id, currentDate, language } = props;
-  const [width, setWidth] = useState<number | undefined>(0);
-  const ref = useRef<HTMLDivElement>(null);
-
-  const handleResize = () => {
-    setWidth(ref.current?.clientWidth);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", handleResize, false);
-  });
+  const { id } = props;
+  const { currentDate, width, language } = useContext(CalendarContext);
 
   const getDays = () => {
     const data = new Array<Date>();
@@ -73,7 +63,7 @@ const Monthly: React.FC<Props> = (props: Props) => {
   const dataArray = getDays().map((item) => <Cells day={item} />);
 
   return (
-    <div ref={ref}>
+    <div>
       {width}
       <Table
         id={id}

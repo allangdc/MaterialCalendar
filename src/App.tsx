@@ -9,7 +9,7 @@ import Calendar from "./components/calendar";
 const App: React.FC = () => (
   <div>
     <h1>Header</h1>
-    <Calendar />
+    <Calendar language="pt-BR" />
     <h1>Footer</h1>
     <Button variant="contained">Enter</Button>
   </div>
