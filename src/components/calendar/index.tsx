@@ -10,7 +10,7 @@ export enum CalendarFormat {
   YEARLY,
 }
 
-interface ICalendarContext {
+export interface ICalendarContext {
   currentDate: Date;
   setCurrDate: React.Dispatch<React.SetStateAction<Date>>;
   width: number | undefined;

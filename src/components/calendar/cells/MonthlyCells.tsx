@@ -1,11 +1,11 @@
-import React, { ReactChildren, useContext } from "react";
+import React, { ReactNode, useContext } from "react";
 import { Grid, Typography } from "@mui/material";
 import { isToday } from "date-fns";
 import { CalendarContext } from "..";
 
 interface Props {
   id?: string;
-  children?: ReactChildren;
+  children?: ReactNode;
   day: Date;
 }
 
@@ -31,7 +31,11 @@ const MonthlyCells: React.FC<Props> = (props: Props) => {
   };
 
   return (
-    <Grid container style={{ backgroundColor: colorCells(), minHeight: 50 }}>
+    <Grid
+      container
+      id="MonthlyView"
+      style={{ backgroundColor: colorCells(), minHeight: 50 }}
+    >
       <Grid item xs={12}>
         <Typography
           variant="subtitle2"
