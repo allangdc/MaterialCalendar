@@ -1,10 +1,10 @@
-import React, { ReactChildren } from "react";
+import React, { ReactNode } from "react";
 import { Grid } from "@mui/material";
 import { isSameMonth, startOfToday } from "date-fns";
 
 interface Props {
   id?: string;
-  children?: ReactChildren;
+  children?: ReactNode;
   day: Date;
 }
 
@@ -20,7 +20,11 @@ const YearlyCells: React.FC<Props> = (props: Props) => {
   };
 
   return (
-    <Grid container style={{ backgroundColor: colorCells(), minHeight: 50 }}>
+    <Grid
+      container
+      data-testid="YearlyView"
+      style={{ backgroundColor: colorCells(), minHeight: 50 }}
+    >
       <Grid item xs={12}>
         {children}
       </Grid>

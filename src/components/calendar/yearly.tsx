@@ -68,7 +68,6 @@ const Yearly: React.FC<Props> = (props: Props) => {
 
   return (
     <div>
-      {width}
       <Table
         id={id}
         header={monthsArray}

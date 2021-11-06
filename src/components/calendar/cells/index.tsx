@@ -1,11 +1,11 @@
-import React, { ReactChildren, useContext } from "react";
+import React, { ReactNode, useContext } from "react";
 import { CalendarContext, CalendarFormat } from "..";
 import MonthlyCells from "./MonthlyCells";
 import YearlyCells from "./YearlyCells";
 
 interface Props {
   id?: string;
-  children?: ReactChildren;
+  children?: ReactNode;
   day: Date;
 }
 

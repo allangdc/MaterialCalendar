@@ -8,8 +8,9 @@ import {
   startOfDay,
   startOfMonth,
   startOfWeek,
+  differenceInDays,
+  endOfWeek,
 } from "date-fns";
-import { differenceInDays, endOfWeek } from "date-fns/esm";
 import Cells from "./cells";
 import { CalendarContext } from ".";
 import * as _ from "lodash";
@@ -76,7 +77,6 @@ const Monthly: React.FC<Props> = (props: Props) => {
 
   return (
     <div>
-      {width}
       <Table
         id={id}
         header={daysArray}

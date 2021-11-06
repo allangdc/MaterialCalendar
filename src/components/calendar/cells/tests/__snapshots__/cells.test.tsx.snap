@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot of the cells in monthly view 1`] = `
+<div>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+    data-testid="MonthlyView"
+    style={
+      Object {
+        "backgroundColor": undefined,
+        "minHeight": 50,
+      }
+    }
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+    >
+      <h6
+        className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+        style={
+          Object {
+            "color": "ThreeDHighlight",
+            "padding": 5,
+          }
+        }
+      >
+        13
+      </h6>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+    />
+  </div>
+</div>
+`;
+
+exports[`Snapshot of the cells in yearly view 1`] = `
+<div>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+    data-testid="YearlyView"
+    style={
+      Object {
+        "backgroundColor": undefined,
+        "minHeight": 50,
+      }
+    }
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+    />
+  </div>
+</div>
+`;

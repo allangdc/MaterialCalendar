@@ -26,8 +26,12 @@ const ToggleCalendarFormat: React.FC = () => {
         exclusive
         style={{ height: 30 }}
       >
-        <ToggleButton value={CalendarFormat.MONTHLY}>Mês</ToggleButton>
-        <ToggleButton value={CalendarFormat.YEARLY}>Ano</ToggleButton>
+        <ToggleButton data-testid="toggle-month" value={CalendarFormat.MONTHLY}>
+          Mês
+        </ToggleButton>
+        <ToggleButton data-testid="toggle-year" value={CalendarFormat.YEARLY}>
+          Ano
+        </ToggleButton>
       </ToggleButtonGroup>
     </div>
   );
