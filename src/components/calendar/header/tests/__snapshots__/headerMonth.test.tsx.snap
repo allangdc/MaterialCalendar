@@ -1,0 +1,1916 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot of the Header in monthly view 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+      id="mobile-header"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true makeStyles-header_back_button-23 css-4jz4pb-MuiGrid-root"
+          >
+            <button
+              aria-label="back the date for calrndar"
+              className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeSmall css-2rshpx-MuiButtonBase-root-MuiIconButton-root"
+              data-testid="btn-back"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="ArrowBackIosNewIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M17.77 3.77 16 2 6 12l10 10 1.77-1.77L9.54 12z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7 css-klo4dh-MuiGrid-root"
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter css-1kgxqm0-MuiTypography-root"
+              data-testid="HeaderTitle"
+            />
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true makeStyles-header_foward_button-24 css-4jz4pb-MuiGrid-root"
+          >
+            <button
+              aria-label="forward the date for calendar"
+              className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeSmall css-2rshpx-MuiButtonBase-root-MuiIconButton-root"
+              data-testid="btn-forward"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="ArrowForwardIosIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+      >
+        <button
+          className="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+          data-testid="btn-today"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "height": 30,
+            }
+          }
+          tabIndex={0}
+          type="button"
+        >
+          Hoje
+        </button>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <div
+            className="MuiToggleButtonGroup-root css-1gjgmky-MuiToggleButtonGroup-root"
+            role="group"
+            style={
+              Object {
+                "height": 30,
+              }
+            }
+          >
+            <button
+              aria-pressed={true}
+              className="MuiButtonBase-root MuiToggleButton-root Mui-selected MuiToggleButton-sizeMedium MuiToggleButton-standard MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-ueukts-MuiButtonBase-root-MuiToggleButton-root"
+              data-testid="toggle-month"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+              value={0}
+            >
+              Mês
+            </button>
+            <button
+              aria-pressed={false}
+              className="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-standard MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-ueukts-MuiButtonBase-root-MuiToggleButton-root"
+              data-testid="toggle-year"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+              value={1}
+            >
+              Ano
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+  />
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+  >
+    <div>
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+        id="monthly"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-undefined MuiGrid-grid-xs-12 css-gz9vtm-MuiGrid-root"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-headercell-21"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1uwgr7b-MuiTypography-root"
+              >
+                D
+              </p>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-headercell-21"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1uwgr7b-MuiTypography-root"
+              >
+                S
+              </p>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-headercell-21"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1uwgr7b-MuiTypography-root"
+              >
+                T
+              </p>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-headercell-21"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1uwgr7b-MuiTypography-root"
+              >
+                Q
+              </p>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-headercell-21"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1uwgr7b-MuiTypography-root"
+              >
+                Q
+              </p>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-headercell-21"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1uwgr7b-MuiTypography-root"
+              >
+                S
+              </p>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-headercell-21"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <p
+                className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1uwgr7b-MuiTypography-root"
+              >
+                S
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-undefined MuiGrid-grid-xs-12 css-gz9vtm-MuiGrid-root"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": "#F7F6F3",
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "ThreeDHighlight",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      27
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "ThreeDHighlight",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      28
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "ThreeDHighlight",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      29
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "ThreeDHighlight",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      30
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "ThreeDHighlight",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      31
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      1
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": "#F7F6F3",
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      2
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-undefined MuiGrid-grid-xs-12 css-gz9vtm-MuiGrid-root"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": "#F7F6F3",
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      3
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      4
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      5
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      6
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      7
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      8
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": "#F7F6F3",
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      9
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-undefined MuiGrid-grid-xs-12 css-gz9vtm-MuiGrid-root"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": "#F7F6F3",
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      10
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      11
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      12
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": "#F8AD63",
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      13
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      14
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      15
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": "#F7F6F3",
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      16
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-undefined MuiGrid-grid-xs-12 css-gz9vtm-MuiGrid-root"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": "#F7F6F3",
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      17
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      18
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      19
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      20
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      21
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      22
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": "#F7F6F3",
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      23
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-undefined MuiGrid-grid-xs-12 css-gz9vtm-MuiGrid-root"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": "#F7F6F3",
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      24
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      25
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      26
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      27
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      28
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      29
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-4jz4pb-MuiGrid-root"
+          >
+            <div
+              className="makeStyles-cell-22"
+              style={
+                Object {
+                  "borderColor": "rgb(223 223 222)",
+                }
+              }
+            >
+              <div>
+                <div
+                  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
+                  data-testid="MonthlyView"
+                  style={
+                    Object {
+                      "backgroundColor": "#F7F6F3",
+                      "minHeight": 50,
+                    }
+                  }
+                >
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  >
+                    <h6
+                      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignRight css-h2l1uj-MuiTypography-root"
+                      style={
+                        Object {
+                          "color": "gray",
+                          "padding": 5,
+                        }
+                      }
+                    >
+                      30
+                    </h6>
+                  </div>
+                  <div
+                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

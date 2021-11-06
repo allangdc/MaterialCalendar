@@ -77,7 +77,6 @@ const Monthly: React.FC<Props> = (props: Props) => {
 
   return (
     <div>
-      {width}
       <Table
         id={id}
         header={daysArray}

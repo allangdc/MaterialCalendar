@@ -22,7 +22,7 @@ const YearlyCells: React.FC<Props> = (props: Props) => {
   return (
     <Grid
       container
-      id="YearlyView"
+      data-testid="YearlyView"
       style={{ backgroundColor: colorCells(), minHeight: 50 }}
     >
       <Grid item xs={12}>

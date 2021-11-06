@@ -5,16 +5,15 @@ import Control from "./control";
 import ToggleCalendarFormat from "./ToggleCalendarFormat";
 import { startOfToday } from "date-fns";
 
-interface Props {
-  id?: string;
-}
-
-const Header: React.FC<Props> = (props: Props) => {
-  const { id } = props;
+const Header: React.FC = () => {
   const { width } = useContext(CalendarContext);
 
   return (
-    <Grid container spacing={1} id={id}>
+    <Grid
+      container
+      spacing={1}
+      id={width && width > 450 ? "normal-header" : "mobile-header"}
+    >
       {width && width > 450 ? <NormalHeader /> : <MobileHeader />}
     </Grid>
   );
@@ -28,7 +27,12 @@ const TodayButton: React.FC = () => {
   };
 
   return (
-    <Button variant="outlined" onClick={handleClick} style={{ height: 30 }}>
+    <Button
+      data-testid="btn-today"
+      variant="outlined"
+      onClick={handleClick}
+      style={{ height: 30 }}
+    >
       Hoje
     </Button>
   );

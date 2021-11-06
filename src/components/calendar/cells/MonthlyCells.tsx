@@ -33,14 +33,13 @@ const MonthlyCells: React.FC<Props> = (props: Props) => {
   return (
     <Grid
       container
-      id="MonthlyView"
+      data-testid="MonthlyView"
       style={{ backgroundColor: colorCells(), minHeight: 50 }}
     >
       <Grid item xs={12}>
         <Typography
           variant="subtitle2"
           align="right"
-          color="ThreeDHighlight"
           style={{ padding: 5, color: colorText() }}
         >
           {day.getDate()}

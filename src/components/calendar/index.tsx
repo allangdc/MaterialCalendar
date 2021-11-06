@@ -66,7 +66,10 @@ const Calendar: React.FC<Props> = (props: Props) => {
     <CalendarContext.Provider value={calendarContext}>
       <Grid container spacing={1} id={id} ref={ref}>
         <Grid item xs={12}>
-          <Header />
+          <Header data-testid="calendar-header" />
+        </Grid>
+        <Grid item xs={12}>
+          {width}
         </Grid>
         <Grid item xs={12}>
           {formatCal === CalendarFormat.MONTHLY ? (

@@ -44,6 +44,7 @@ const Control: React.FC = () => {
     <Grid container>
       <Grid item xs className={classes.header_back_button}>
         <IconButton
+          data-testid="btn-back"
           color="primary"
           size="small"
           aria-label="back the date for calrndar"
@@ -53,12 +54,13 @@ const Control: React.FC = () => {
         </IconButton>
       </Grid>
       <Grid item xs={7}>
-        <Typography variant="h6" align="center">
+        <Typography variant="h6" align="center" data-testid="HeaderTitle">
           {headerTitle}
         </Typography>
       </Grid>
       <Grid item xs className={classes.header_foward_button}>
         <IconButton
+          data-testid="btn-forward"
           color="primary"
           size="small"
           aria-label="forward the date for calendar"
