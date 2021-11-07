@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 import { Grid } from "@mui/material";
+import { startOfToday } from "date-fns";
 import React, { createContext, useEffect, useRef, useState } from "react";
 import Header from "./header";
 import Monthly from "./monthly";
@@ -17,28 +18,43 @@ export interface ICalendarContext {
   setFormatCal: React.Dispatch<React.SetStateAction<CalendarFormat>>;
   formatCal: CalendarFormat;
   language: string;
+  holidays: Array<CalendarHoliday> | undefined;
+  holidayColor: string | undefined;
+  lineColor: string | undefined;
 }
 
 const initialContext: ICalendarContext = {
-  currentDate: new Date(),
+  currentDate: startOfToday(),
   setCurrDate: () => {},
   width: undefined,
   setFormatCal: () => {},
   formatCal: CalendarFormat.MONTHLY,
   language: "",
+  holidays: undefined,
+  holidayColor: undefined,
+  lineColor: undefined,
 };
+
+export interface CalendarHoliday {
+  title: string;
+  day: Date;
+  yearly: boolean;
+}
 
 export const CalendarContext = createContext<ICalendarContext>(initialContext);
 
 interface Props {
   id?: string;
   language: string;
+  holidays?: Array<CalendarHoliday>;
+  holidayColor?: string;
+  borderLineColor?: string;
 }
 
 const Calendar: React.FC<Props> = (props: Props) => {
-  const { id, language } = props;
+  const { id, language, holidays, holidayColor, borderLineColor } = props;
   const ref = useRef<HTMLDivElement>(null);
-  const [currDate, setCurrDate] = useState<Date>(new Date());
+  const [currDate, setCurrDate] = useState<Date>(startOfToday());
   const [width, setWidth] = useState<number | undefined>(undefined);
   const [formatCal, setFormatCal] = useState<CalendarFormat>(
     CalendarFormat.MONTHLY
@@ -51,6 +67,9 @@ const Calendar: React.FC<Props> = (props: Props) => {
     setFormatCal,
     formatCal,
     language,
+    holidays,
+    holidayColor,
+    lineColor: borderLineColor || "rgb(223 223 222)",
   };
 
   const handleResize = () => {

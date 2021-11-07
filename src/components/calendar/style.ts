@@ -9,6 +9,7 @@ export const useStyles = makeStyles({
   cell: {
     border: "solid",
     borderWidth: "0.01px",
+    height: "100%",
   },
   header_back_button: {
     display: "flex",

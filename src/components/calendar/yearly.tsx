@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-import React, { useContext } from "react";
+import React, { ReactElement, useContext, useEffect, useState } from "react";
 import { Typography } from "@mui/material";
 import Table from "./table";
 import {
@@ -24,7 +24,7 @@ const Yearly: React.FC<Props> = (props: Props) => {
   const { id } = props;
   const { currentDate, width } = useContext(CalendarContext);
 
-  const getMonths = () => {
+  const getMonths = (): void => {
     const data = new Array<Date>();
     const initCal = startOfDay(startOfYear(currentDate));
     const endCal = startOfDay(startOfMonth(endOfYear(initCal)));
@@ -34,7 +34,7 @@ const Yearly: React.FC<Props> = (props: Props) => {
       data.push(i);
       i = addMonths(i, 1);
     }
-    return data;
+    setDataArray(data.map((item) => <Cells day={item} />));
   };
 
   const getMonthName = () => {
@@ -61,19 +61,19 @@ const Yearly: React.FC<Props> = (props: Props) => {
     return data;
   };
 
+  const [dataArray, setDataArray] = useState<Array<ReactElement>>([]);
+
+  useEffect(() => {
+    getMonths();
+  }, [currentDate]);
+
   const monthsArray = getMonthName().map((item) => (
     <Typography align="center">{item}</Typography>
   ));
-  const dataArray = getMonths().map((item) => <Cells day={item} />);
 
   return (
     <div>
-      <Table
-        id={id}
-        header={monthsArray}
-        data={dataArray}
-        lineColor="rgb(223 223 222)"
-      />
+      <Table id={id} header={monthsArray} data={dataArray} />
     </div>
   );
 };

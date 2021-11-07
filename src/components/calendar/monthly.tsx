@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-import React, { useContext } from "react";
+import React, { ReactElement, useContext, useEffect, useState } from "react";
 import { Typography } from "@mui/material";
 import Table from "./table";
 import {
@@ -22,6 +22,11 @@ interface Props {
 const Monthly: React.FC<Props> = (props: Props) => {
   const { id } = props;
   const { currentDate, width, language } = useContext(CalendarContext);
+  const [dataArray, setDataArray] = useState<Array<ReactElement>>([]);
+
+  useEffect(() => {
+    getDays();
+  }, [currentDate]);
 
   const getDays = () => {
     const data = new Array<Date>();
@@ -33,7 +38,7 @@ const Monthly: React.FC<Props> = (props: Props) => {
       data.push(i);
       i = addDays(i, 1);
     }
-    return data;
+    setDataArray(data.map((item) => <Cells day={item} />));
   };
 
   const getWeekName = () => {
@@ -73,16 +78,10 @@ const Monthly: React.FC<Props> = (props: Props) => {
   const daysArray = getWeekName().map((item) => (
     <Typography align="center">{item}</Typography>
   ));
-  const dataArray = getDays().map((item) => <Cells day={item} />);
 
   return (
     <div>
-      <Table
-        id={id}
-        header={daysArray}
-        data={dataArray}
-        lineColor="rgb(223 223 222)"
-      />
+      <Table id={id} header={daysArray} data={dataArray} />
     </div>
   );
 };

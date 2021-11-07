@@ -27,6 +27,9 @@ const dummyValue: ICalendarContext = {
     throw new Error("Function not implemented.");
   },
   language: "",
+  holidays: undefined,
+  holidayColor: undefined,
+  lineColor: undefined,
 };
 
 test("Must shows YearlyCells", () => {
