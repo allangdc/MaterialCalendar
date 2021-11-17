@@ -5,7 +5,7 @@ import { advanceTo, clear } from "jest-date-mock";
 import renderer from "react-test-renderer";
 
 beforeEach(() => {
-  render(<Calendar language={"pt"} />);
+  render(<Calendar language={"pt-BR"} />);
 });
 
 beforeAll(() => {

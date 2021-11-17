@@ -1,13 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Snapshot of the cells in monthly view 1`] = `
-<div>
+<div
+  className="makeStyles-cell-128"
+  style={
+    Object {
+      "borderColor": undefined,
+    }
+  }
+>
   <div
     className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
     data-testid="MonthlyView"
+    id="popim"
     style={
       Object {
         "backgroundColor": undefined,
+        "height": "100%",
         "minHeight": 50,
       }
     }
@@ -29,13 +38,59 @@ exports[`Snapshot of the cells in monthly view 1`] = `
     </div>
     <div
       className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+          }
+        }
+      >
+        <h6
+          className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-avn1fp-MuiTypography-root"
+          style={
+            Object {
+              "paddingLeft": 10,
+              "paddingRight": 10,
+            }
+          }
+        />
+        <h6
+          className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-avn1fp-MuiTypography-root"
+          style={
+            Object {
+              "paddingLeft": 10,
+              "paddingRight": 10,
+            }
+          }
+        />
+        <h6
+          className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-avn1fp-MuiTypography-root"
+          style={
+            Object {
+              "paddingLeft": 10,
+              "paddingRight": 10,
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
     />
   </div>
 </div>
 `;
 
 exports[`Snapshot of the cells in yearly view 1`] = `
-<div>
+<div
+  className="makeStyles-cell-128"
+  style={
+    Object {
+      "borderColor": undefined,
+    }
+  }
+>
   <div
     className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
     data-testid="YearlyView"

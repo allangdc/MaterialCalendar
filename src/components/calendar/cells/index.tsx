@@ -1,5 +1,6 @@
 import React, { ReactNode, useContext } from "react";
 import { CalendarContext, CalendarFormat } from "..";
+import { useStyles } from "../style";
 import MonthlyCells from "./MonthlyCells";
 import YearlyCells from "./YearlyCells";
 
@@ -11,15 +12,20 @@ interface Props {
 
 const Cells: React.FC<Props> = (props: Props) => {
   const { children, day } = props;
-  const { formatCal } = useContext(CalendarContext);
+  const { formatCal, lineColor } = useContext(CalendarContext);
+  const classes = useStyles();
+
+  const GenericCells: React.FC = () => {
+    if (formatCal === CalendarFormat.MONTHLY) {
+      return <MonthlyCells day={day}>{children}</MonthlyCells>;
+    } else {
+      return <YearlyCells day={day}>{children}</YearlyCells>;
+    }
+  };
 
   return (
-    <div>
-      {formatCal === CalendarFormat.MONTHLY ? (
-        <MonthlyCells day={day}>{children}</MonthlyCells>
-      ) : (
-        <YearlyCells day={day}>{children}</YearlyCells>
-      )}
+    <div className={classes.cell} style={{ borderColor: lineColor }}>
+      <GenericCells />
     </div>
   );
 };

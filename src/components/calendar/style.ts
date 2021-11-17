@@ -7,8 +7,7 @@ export const useStyles = makeStyles({
     minHeight: 24,
   },
   cell: {
-    border: "solid",
-    borderWidth: "0.01px",
+    height: "100%",
   },
   header_back_button: {
     display: "flex",
@@ -17,5 +16,14 @@ export const useStyles = makeStyles({
   header_foward_button: {
     display: "flex",
     justifyContent: "start",
+  },
+  table_cell: {
+    verticalAlign: "top",
+    border: "solid 1px lightgrey",
+  },
+  table: {
+    width: "100%",
+    height: "100%",
+    borderCollapse: "collapse",
   },
 });

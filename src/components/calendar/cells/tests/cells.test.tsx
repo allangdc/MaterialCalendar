@@ -18,7 +18,7 @@ const dateRef = startOfToday();
 
 const dummyValue: ICalendarContext = {
   formatCal: CalendarFormat.MONTHLY,
-  currentDate: dateRef,
+  currDate: dateRef,
   setCurrDate: function (): void {
     throw new Error("Function not implemented.");
   },
@@ -27,6 +27,18 @@ const dummyValue: ICalendarContext = {
     throw new Error("Function not implemented.");
   },
   language: "",
+  holidays: undefined,
+  holidayColor: undefined,
+  lineColor: undefined,
+  dataArray: [],
+  setDataArray: function (): void {
+    throw new Error("Function not implemented.");
+  },
+  headerArray: [],
+  setHeaderArray: function (): void {
+    throw new Error("Function not implemented.");
+  },
+  sameWidthP100: undefined,
 };
 
 test("Must shows YearlyCells", () => {

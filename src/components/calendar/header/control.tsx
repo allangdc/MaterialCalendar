@@ -10,33 +10,33 @@ import { pt } from "date-fns/locale";
 import * as _ from "lodash";
 
 const Control: React.FC = () => {
-  const { currentDate, setCurrDate, formatCal } = useContext(CalendarContext);
+  const { currDate, setCurrDate, formatCal } = useContext(CalendarContext);
   const [headerTitle, setHeaderTitle] = useState<string>();
   const classes = useStyles();
 
   useEffect(() => {
     if (formatCal === CalendarFormat.MONTHLY) {
       setHeaderTitle(
-        _.capitalize(format(currentDate, "LLLL yyyy", { locale: pt }))
+        _.capitalize(format(currDate, "LLLL yyyy", { locale: pt }))
       );
     } else {
-      setHeaderTitle(currentDate.getFullYear().toString());
+      setHeaderTitle(currDate.getFullYear().toString());
     }
-  }, [currentDate, formatCal]);
+  }, [currDate, formatCal]);
 
   const GoBack = (): void => {
     if (formatCal === CalendarFormat.MONTHLY) {
-      setCurrDate(subMonths(currentDate, 1));
+      setCurrDate(subMonths(currDate, 1));
     } else {
-      setCurrDate(subYears(currentDate, 1));
+      setCurrDate(subYears(currDate, 1));
     }
   };
 
   const GoForward = (): void => {
     if (formatCal === CalendarFormat.MONTHLY) {
-      setCurrDate(addMonths(currentDate, 1));
+      setCurrDate(addMonths(currDate, 1));
     } else {
-      setCurrDate(addYears(currentDate, 1));
+      setCurrDate(addYears(currDate, 1));
     }
   };
 
