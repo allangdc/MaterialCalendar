@@ -1,10 +1,10 @@
-import React, { ReactElement, useContext } from "react";
+import React, { ReactNode, useContext } from "react";
 import { Grid } from "@mui/material";
 import { useStyles } from "../style";
 import { CalendarContext } from "..";
 
 interface Props {
-  header: Array<ReactElement>;
+  header: Array<ReactNode>;
 }
 
 const TableHeader: React.FC<Props> = (props: Props) => {
@@ -14,7 +14,7 @@ const TableHeader: React.FC<Props> = (props: Props) => {
 
   return (
     <Grid container>
-      {header.map((itemObject: ReactElement, index: number) => (
+      {header.map((itemObject: ReactNode, index: number) => (
         <Grid item xs key={`header_${index}`}>
           <div
             className={classes.headercell}

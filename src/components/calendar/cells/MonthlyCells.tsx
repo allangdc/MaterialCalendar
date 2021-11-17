@@ -11,7 +11,7 @@ interface Props {
 
 const MonthlyCells: React.FC<Props> = (props: Props) => {
   const { children, day } = props;
-  const { currentDate, holidays, holidayColor } = useContext(CalendarContext);
+  const { currDate, holidays, holidayColor } = useContext(CalendarContext);
   const [myHoly, setMyHoly] = useState<CalendarHoliday>();
 
   useEffect(() => {
@@ -45,7 +45,7 @@ const MonthlyCells: React.FC<Props> = (props: Props) => {
   };
 
   const colorText = (): string | undefined => {
-    if (day.getMonth() !== currentDate.getMonth()) {
+    if (day.getMonth() !== currDate.getMonth()) {
       return "ThreeDHighlight";
     }
     return "gray";
@@ -62,7 +62,27 @@ const MonthlyCells: React.FC<Props> = (props: Props) => {
             paddingRight: 10,
           }}
         >
-          {myHoly && <>{myHoly?.title}</>}
+          {myHoly?.title}
+        </Typography>
+        <Typography
+          align="center"
+          variant="subtitle2"
+          style={{
+            paddingLeft: 10,
+            paddingRight: 10,
+          }}
+        >
+          {myHoly?.title}
+        </Typography>
+        <Typography
+          align="center"
+          variant="subtitle2"
+          style={{
+            paddingLeft: 10,
+            paddingRight: 10,
+          }}
+        >
+          {myHoly?.title}
         </Typography>
       </div>
     );
@@ -72,9 +92,11 @@ const MonthlyCells: React.FC<Props> = (props: Props) => {
     <Grid
       container
       data-testid="MonthlyView"
+      id="popim"
       style={{
         backgroundColor: colorCells(),
         height: "100%",
+        minHeight: 50,
       }}
     >
       <Grid item xs={12}>

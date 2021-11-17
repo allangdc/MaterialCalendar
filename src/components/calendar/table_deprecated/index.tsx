@@ -1,15 +1,15 @@
 import { Grid } from "@mui/material";
-import React, { ReactElement } from "react";
+import React, { ReactNode } from "react";
 import TableData from "./data";
 import TableHeader from "./header";
 
 interface Props {
   id?: string;
-  header: Array<ReactElement>;
-  data: Array<ReactElement>;
+  header: Array<ReactNode>;
+  data: Array<ReactNode>;
 }
 
-const Table: React.FC<Props> = (props: Props) => {
+const TableMe: React.FC<Props> = (props: Props) => {
   const { id, header, data } = props;
 
   return (
@@ -24,4 +24,4 @@ const Table: React.FC<Props> = (props: Props) => {
   );
 };
 
-export default Table;
+export default TableMe;

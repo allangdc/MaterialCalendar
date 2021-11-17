@@ -1,10 +1,10 @@
-import React, { ReactElement, useEffect, useState } from "react";
+import React, { ReactNode, useEffect, useState } from "react";
 import { Grid } from "@mui/material";
 import Line, { TLine } from "./line";
 
 interface Props {
   ncols: number;
-  data: Array<ReactElement>;
+  data: Array<ReactNode>;
 }
 
 const TableData: React.FC<Props> = (props: Props) => {
@@ -17,12 +17,12 @@ const TableData: React.FC<Props> = (props: Props) => {
   }, [data]);
 
   const SplitLines = () => {
-    const dt = new Array<ReactElement>(...data);
+    const dt = new Array<ReactNode>(...data);
     while (dt.length % ncols !== 0) {
       dt.push(<div />);
     }
 
-    const line: TLine = new Array<ReactElement>();
+    const line: TLine = new Array<ReactNode>();
     const tempLines = new Array<TLine>();
     dt.map((item, index) => {
       line.push(item);

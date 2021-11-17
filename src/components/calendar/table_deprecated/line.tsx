@@ -1,7 +1,7 @@
-import React, { ReactElement } from "react";
+import React, { ReactNode } from "react";
 import { Grid } from "@mui/material";
 
-export type TLine = Array<ReactElement>;
+export type TLine = Array<ReactNode>;
 
 interface LineProps {
   id: string;
