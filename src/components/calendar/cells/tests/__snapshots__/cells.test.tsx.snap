@@ -2,21 +2,22 @@
 
 exports[`Snapshot of the cells in monthly view 1`] = `
 <div
-  className="makeStyles-cell-86"
+  className="makeStyles-cell-128"
   style={
     Object {
       "borderColor": undefined,
-      "minHeight": 50,
     }
   }
 >
   <div
     className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-undefined css-11lq3yg-MuiGrid-root"
     data-testid="MonthlyView"
+    id="popim"
     style={
       Object {
         "backgroundColor": undefined,
         "height": "100%",
+        "minHeight": 50,
       }
     }
   >
@@ -54,6 +55,24 @@ exports[`Snapshot of the cells in monthly view 1`] = `
             }
           }
         />
+        <h6
+          className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-avn1fp-MuiTypography-root"
+          style={
+            Object {
+              "paddingLeft": 10,
+              "paddingRight": 10,
+            }
+          }
+        />
+        <h6
+          className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-alignCenter css-avn1fp-MuiTypography-root"
+          style={
+            Object {
+              "paddingLeft": 10,
+              "paddingRight": 10,
+            }
+          }
+        />
       </div>
     </div>
     <div
@@ -65,11 +84,10 @@ exports[`Snapshot of the cells in monthly view 1`] = `
 
 exports[`Snapshot of the cells in yearly view 1`] = `
 <div
-  className="makeStyles-cell-86"
+  className="makeStyles-cell-128"
   style={
     Object {
       "borderColor": undefined,
-      "minHeight": 50,
     }
   }
 >

@@ -19,7 +19,6 @@ const TabData: React.FC<Props> = (props: Props) => {
 
   useEffect(() => {
     const col = NCol();
-    console.log("NCOL", col);
     if (col > 0) {
       setLineKey(Array.from(Array(col).keys()));
     }

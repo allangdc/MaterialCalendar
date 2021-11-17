@@ -18,7 +18,7 @@
     "sourceType": "module"
   },
   "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
-  "rules": {},
+  "rules": { "no-console": ["warn"] },
   "settings": {
     "import/resolver": {
       "typescript": {}
