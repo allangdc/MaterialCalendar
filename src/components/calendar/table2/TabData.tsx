@@ -12,25 +12,18 @@ interface Props {
 const TabData: React.FC<Props> = (props: Props) => {
   const { header, lineColor, data, sameWidthP100 } = props;
   const classes = useStyles();
+  const NCol = () => header.length;
   const [lineKey, setLineKey] = useState<Array<number>>(
-    Array.from(Array(7).keys())
+    Array.from(Array(NCol()).keys())
   );
-  const [ncol, setNCol] = useState<number>(7);
 
   useEffect(() => {
-    if (header.length > 0) {
-      setNCol(header.length);
+    const col = NCol();
+    console.log("NCOL", col);
+    if (col > 0) {
+      setLineKey(Array.from(Array(col).keys()));
     }
-  }, [data.length, header.length]);
-
-  useEffect(() => {
-    console.log("NCOL", ncol);
-    setLineKey(Array.from(Array(ncol).keys()));
-  }, [ncol]);
-
-  useEffect(() => {
-    console.log(lineKey);
-  }, [lineKey]);
+  }, [header.length]);
 
   return (
     <>
@@ -39,7 +32,8 @@ const TabData: React.FC<Props> = (props: Props) => {
           <tr key={`tab_lin_${i}`}>
             {data
               .filter(
-                (value, index) => index >= i * ncol && index < (i + 1) * ncol
+                (value, index) =>
+                  index >= i * NCol() && index < (i + 1) * NCol()
               )
               ?.map((item, index) => (
                 <td

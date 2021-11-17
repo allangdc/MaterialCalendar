@@ -94,7 +94,7 @@ const Calendar: React.FC<Props> = (props: Props) => {
   );
   const [dataArray, setDataArray] = useState<Array<ReactNode>>([]);
   const [headerArray, setHeaderArray] = useState<Array<ReactNode>>([]);
-  const [sameWidthP100, setSameWidthP100] = useState<string>("14%");
+  const [sameWidthP100, setSameWidthP100] = useState<string>("100%");
 
   const calendarContext: ICalendarContext = {
     currDate,
@@ -122,7 +122,7 @@ const Calendar: React.FC<Props> = (props: Props) => {
       const wdt = `${Math.round(100 / ncol)}%`;
       setSameWidthP100(wdt);
     }
-  }, [headerArray.length, formatCal]);
+  }, [headerArray.length, formatCal, currDate]);
 
   const handleResize = () => {
     setWidth(ref.current?.clientWidth);
@@ -218,7 +218,7 @@ const Calendar: React.FC<Props> = (props: Props) => {
     }
 
     const darray = data.map((item, index) => (
-      <Cells key={`cells_dt_${index}`} day={item} />
+      <Cells key={`cells_dtmon_${index}`} day={item} />
     ));
 
     if (darray.length > 0) setDataArray(darray);
