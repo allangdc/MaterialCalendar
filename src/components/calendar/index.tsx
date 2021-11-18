@@ -24,6 +24,7 @@ import React, {
   useRef,
   useState,
 } from "react";
+import Bar, { BarType } from "./bars/bar";
 import Cells from "./cells";
 import Header from "./header";
 import Monthly from "./monthly";
@@ -49,6 +50,7 @@ export interface ICalendarContext {
   headerArray: Array<ReactNode>;
   setHeaderArray: React.Dispatch<React.SetStateAction<React.ReactNode[]>>;
   sameWidthP100: string | undefined;
+  rangeBars: Array<CalendarRangeBar> | undefined;
 }
 
 const initialContext: ICalendarContext = {
@@ -66,12 +68,20 @@ const initialContext: ICalendarContext = {
   headerArray: [],
   setHeaderArray: () => {},
   sameWidthP100: undefined,
+  rangeBars: undefined,
 };
 
 export interface CalendarHoliday {
   title: string;
   day: Date;
   yearly: boolean;
+}
+
+export interface CalendarRangeBar {
+  category: string;
+  title: string;
+  startDate: Date;
+  endDate: Date;
 }
 
 export const CalendarContext = createContext<ICalendarContext>(initialContext);
@@ -81,11 +91,13 @@ interface Props {
   language: string;
   holidays?: Array<CalendarHoliday>;
   holidayColor?: string;
+  rangeBars?: Array<CalendarRangeBar>;
   borderLineColor?: string;
 }
 
 const Calendar: React.FC<Props> = (props: Props) => {
-  const { id, language, holidays, holidayColor, borderLineColor } = props;
+  const { id, language, holidays, holidayColor, borderLineColor, rangeBars } =
+    props;
   const ref = useRef<HTMLDivElement>(null);
   const [currDate, setCurrDate] = useState<Date>(startOfToday());
   const [width, setWidth] = useState<number | undefined>(undefined);
@@ -111,6 +123,7 @@ const Calendar: React.FC<Props> = (props: Props) => {
     headerArray,
     setHeaderArray,
     sameWidthP100,
+    rangeBars,
   };
 
   const NCol = () => headerArray.length;
@@ -160,7 +173,9 @@ const Calendar: React.FC<Props> = (props: Props) => {
       i = addDays(i, 1);
     }
     const darray = data.map((item, index) => (
-      <Cells key={`cells_dt_${index}`} day={item} />
+      <Cells key={`cells_dt_${index}`} day={item}>
+        <Bar barType={BarType.MID} text={`oi dia ${item.getDate()}`} />
+      </Cells>
     ));
     if (darray.length > 0) setDataArray(darray);
   };

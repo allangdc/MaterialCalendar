@@ -2,6 +2,7 @@ import React, { ReactNode, useContext, useEffect, useState } from "react";
 import { Grid, Typography } from "@mui/material";
 import { isSameDay, isToday } from "date-fns";
 import { CalendarContext, CalendarHoliday } from "..";
+import Bar, { BarType } from "../bars/bar";
 
 interface Props {
   id?: string;
@@ -64,26 +65,6 @@ const MonthlyCells: React.FC<Props> = (props: Props) => {
         >
           {myHoly?.title}
         </Typography>
-        <Typography
-          align="center"
-          variant="subtitle2"
-          style={{
-            paddingLeft: 10,
-            paddingRight: 10,
-          }}
-        >
-          {myHoly?.title}
-        </Typography>
-        <Typography
-          align="center"
-          variant="subtitle2"
-          style={{
-            paddingLeft: 10,
-            paddingRight: 10,
-          }}
-        >
-          {myHoly?.title}
-        </Typography>
       </div>
     );
   };
@@ -98,6 +79,7 @@ const MonthlyCells: React.FC<Props> = (props: Props) => {
         height: "100%",
         minHeight: 50,
       }}
+      alignContent="start"
     >
       <Grid item xs={12}>
         <Typography
@@ -109,10 +91,10 @@ const MonthlyCells: React.FC<Props> = (props: Props) => {
         </Typography>
       </Grid>
       <Grid item xs={12}>
-        <HolidayInfo />
+        {children}
       </Grid>
       <Grid item xs={12}>
-        {children}
+        <HolidayInfo />
       </Grid>
     </Grid>
   );
